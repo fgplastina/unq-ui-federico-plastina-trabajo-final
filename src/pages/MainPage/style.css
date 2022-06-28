@@ -1,5 +1,6 @@
 .tittle-main {
-  margin-bottom:  90px;
+  margin-bottom:  70px;
+  font-weight: 900;
 }
 
 .round-container {
@@ -9,11 +10,10 @@
 .label-round {
   display: inline-block;
   margin-right:15px;
-  background-color: grey;
+  background-color: black;
   border-radius: 4px;
-  color: white;
   padding: 4px;
-
+  color: #ffa86a;
 }
 
 .value-rounds{
@@ -21,6 +21,8 @@
   border: 1px solid grey;
   border-radius: 4px;
   padding: 5px;
+  color: #ffa86a;
+
 }
 
 .button-container {

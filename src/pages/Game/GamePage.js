@@ -1,5 +1,8 @@
 import React, {useState, useContext} from 'react';
 import {RoundContext} from '../../context/providerRound'
+import { ResultPanel } from '../../components/Panel/ResultPanel'
+import  { SelectedOption } from '../../components/Game/SelectedOption'
+import  { PlayerOption } from '../../components/Game/PlayerOption'
 import './style.css'
 
 const GamePage = () => {
@@ -7,27 +10,26 @@ const GamePage = () => {
   const {value, setValue}= useContext(RoundContext);
 
   const [playStats, setPlayStats] = useState({
-    win: 0,
-    draw: 0,
-    loose: 0,
+    wins: 0,
+    draws: 0,
+    losses: 0,
   });
 
   const addPointToPlayStatParam = (param) => {
     setPlayStats({...playStats, [param]: playStats[param] + 1 });
   };
-
+          //<!--> <input type="image" src="" style="border: double;" height="80" width="70"/> </-->
   return (
-    <div className='container my-5  vh-100 d-flex justify-content-center flex-column '>
-      <h1 className='title-game text-center'>Round 1</h1>
+    <div className='container my-5 vh-100 d-flex justify-content-center flex-column '>
+      <h1 className='title-game text-center'>Round {value}</h1>
+      <ResultPanel className='result-panel text-center' wins={playStats.wins} losses={playStats.losses} draws={playStats.draws}/>
       <div className='align-items-center d-flex justify-content-center flex-column text-center'>
         <div className='selected-options'>
-          <img src='' />
-          <img src='' />
-        </div>
-        <div className='result-panel'>
+          <SelectedOption />
+          <SelectedOption />
         </div>
         <div className='options'>
-          <input type="image" src="" style="border: double;" height="80" width="70"/>
+          <PlayerOption />
         </div>
       </div>
     </div>
