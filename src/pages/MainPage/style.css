@@ -1,0 +1,28 @@
+.tittle-main {
+  margin-bottom:  90px;
+}
+
+.round-container {
+  margin-bottom: 20px;
+}
+
+.label-round {
+  display: inline-block;
+  margin-right:15px;
+  background-color: grey;
+  border-radius: 4px;
+  color: white;
+  padding: 4px;
+
+}
+
+.value-rounds{
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.button-container {
+  width: 200px;
+}
