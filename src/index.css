@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(34, 33, 41);
+  color: #ffa86a;
+  font-family: Fira Code,Monaco,Consolas,Ubuntu Mono,monospace;
 }
 
 code {
