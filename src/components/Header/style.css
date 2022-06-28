@@ -1,0 +1,14 @@
+
+.container-header{
+  background-color: #110F1E;
+  height: 60px;
+}
+
+.logo-header{
+  color: var(  --main-color-white);
+  cursor: pointer;
+  letter-spacing: 2px;
+
+}
+
+
