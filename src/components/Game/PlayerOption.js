@@ -1,24 +1,25 @@
-import React, {useState, useContext} from 'react';
+import React from 'react';
 import { plays } from '../../pages/Game/GamePage'
 import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
 import './style.css'
 
 
-export const PlayerOption = ({setCurrentPlayerPlay}) => {
+export const PlayerOption = ({setCurrentPlayerPlay, currentPlayerPlay}) => {
 
   function handleSelectedOption(play){
-    setCurrentPlayerPlay(play);
+    if (!Boolean(Object.entries(currentPlayerPlay).length)){
+      setCurrentPlayerPlay(play);
+    }
   }
   
   return (
     <div className='container d-flex '>
       {plays.map((play) => (
-        <div onClick={() => handleSelectedOption(play)}>
-          <Card className="card" style={{ width: '12rem' }}>
-            <Card.Img variant="top" src={play.image} />
+        <div  onClick={() => handleSelectedOption(play)}>
+          <Card className="card">
             <Card.Body>
               <Card.Title>{play.name}</Card.Title>
+              <Card.Img variant="bottom" src={play.image} />
             </Card.Body>
           </Card>
     </div>
