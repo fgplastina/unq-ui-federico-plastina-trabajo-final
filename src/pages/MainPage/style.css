@@ -28,3 +28,8 @@
 .button-container {
   width: 200px;
 }
+
+.main-page-container {
+  margin-bottom: 1050px !important;
+  margin-top: 100px !important;
+}

@@ -1,4 +1,4 @@
-import React, {useState, useContext} from 'react';
+import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom'
 import Button from 'react-bootstrap/Button'
 import {RoundContext} from '../../context/providerRound'
@@ -6,13 +6,8 @@ import './style.css'
 
 const MainPage = () => {
   let navigate = useNavigate(); 
-
-
-
   const {value, setValue}= useContext(RoundContext);
 
-  function handleStart() {}
-  function handleRules() {}
   function handleChangeValueRound(event) {
     setValue(event.target.value)
   }
@@ -25,7 +20,7 @@ const MainPage = () => {
 
 
   return (
-    <div className='container vh-100 d-flex justify-content-center flex-column '>
+    <div className='main-page-container container d-flex justify-content-center flex-column '>
       <h1 className='tittle-main text-center '>Sheldon's best game</h1>
       <div className='align-items-center d-flex justify-content-center flex-column text-center'>
         <div className='round-container d-flex justify-content-center align-items-center'>
