@@ -58,8 +58,6 @@ const GamePage = () => {
   // bootstrap const
   const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-
   const handleShow = () => setShow(true);
 
   const addPointToPlayStatParam = (param) => {
@@ -151,7 +149,6 @@ const GamePage = () => {
   useEffect(() => {
     idSetTimeoutMachine.current = setTimeout(() => {
      if (thereIsCompletePlay()) {
-       console.log(currentMachinePlay);
        if (userWonPlay()){
          addPointToPlayStatParam('wins');
        }

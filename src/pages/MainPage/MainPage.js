@@ -5,19 +5,14 @@ import {RoundContext} from '../../context/providerRound'
 import './style.css'
 
 const MainPage = () => {
+
   let navigate = useNavigate(); 
+
   const {value, setValue}= useContext(RoundContext);
 
   function handleChangeValueRound(event) {
     setValue(event.target.value)
   }
-
-  function routeChange(new_path){ 
-    console.log(new_path)
-    let path = new_path; 
-    navigate(path);
-  }
-
 
   return (
     <div className='main-page-container container d-flex justify-content-center flex-column '>

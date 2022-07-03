@@ -1,4 +1,4 @@
-import React, {useState, useContext} from 'react';
+import React from 'react';
 import Card from 'react-bootstrap/Card'
 import './style.css'
 
