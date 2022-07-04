@@ -13,7 +13,7 @@ export const Header = () => {
         className="logo-header"
         aria-hidden="true"
       >
-        Sheldon's game 
+        Sheldon's game
       </span>
     </nav>
   );
