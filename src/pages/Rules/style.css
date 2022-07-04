@@ -1,0 +1,12 @@
+.rules-item{
+  color: #ffa86a !important;
+  background-color: #3b3b42!important;
+  border-color: #222129!important;
+}
+
+.rules-item-wins-text {
+  color: green;
+}
+.rules-item-losses-text{
+  color: red;
+}
