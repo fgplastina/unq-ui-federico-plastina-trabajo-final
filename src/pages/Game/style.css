@@ -2,3 +2,8 @@
   margin-bottom: 10px;
   margin-top: 2px;
 }
+
+.game-modal{
+  background-color: #110F1E !important;
+  border: transparent !important;
+}

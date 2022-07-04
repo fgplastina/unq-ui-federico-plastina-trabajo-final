@@ -178,18 +178,20 @@ const GamePage = () => {
     <div className='container vh-100 d-flex justify-content-center flex-column '>
     <>
       <Modal show={show}>
-        <Modal.Header className="text-center justify-content-center">
+        <Modal.Header className="game-modal text-center justify-content-center">
           <Modal.Title >Game over!</Modal.Title>
         </Modal.Header>
-        <Modal.Body>You have {getWinner()}!</Modal.Body>
-        <Modal.Footer>
-          <Button variant="primary" onClick={() => navigate('/')}>
+        <Modal.Body className="game-modal text-center justify-content-center">You have {getWinner()}!</Modal.Body>
+        <Modal.Footer  className="game-modal text-center justify-content-center">
+          <Button  variant="outline-success" onClick={() => navigate('/')}>
             Play again!
           </Button>
         </Modal.Footer>
       </Modal>
     </>
-      <h1 className='title-game text-center mb-5'>Round {currentRound < value ? currentRound + 1 : currentRound }</h1>
+      <h1 className='title-game text-center mb-5'>
+        Round {currentRound < value ? currentRound + 1 : currentRound }
+      </h1>
       <ResultPanel className='result-panel  align-items-center d-flex justify-content-center flex-column' wins={playStats.wins} losses={playStats.losses} draws={playStats.draws}/>
       <div className='align-items-center d-flex justify-content-center flex-column text-center mb-2'>
         <div className='selected-options '>
@@ -199,7 +201,6 @@ const GamePage = () => {
           <PlayerOption setCurrentPlayerPlay={setCurrentPlayerPlay} currentPlayerPlay={currentPlayerPlay}/>
         </div>
       </div>
-
     </div>
   )
 }
