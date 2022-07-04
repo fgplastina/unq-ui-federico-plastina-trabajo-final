@@ -19,9 +19,9 @@ export const Rules = () => {
       <ListGroup className='rules-list mt-3'variant="flush">
         {plays.map((play) => (
           <ListGroup.Item className='rules-item'>
-            <strong>{capitalizeFirstLetter(play.name)}</strong> wins to 
+            <strong>{capitalizeFirstLetter(play.name)}</strong> beats
             <strong className="rules-item-wins-text"> {capitalizeWordsInList(play.wins).join(', ')} </strong>
-            and losses to 
+            and loses against
             <strong className="rules-item-losses-text"> {capitalizeWordsInList(play.losses).join(', ')} </strong>
           </ListGroup.Item>
         ) )}
