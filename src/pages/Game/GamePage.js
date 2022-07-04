@@ -175,7 +175,7 @@ const GamePage = () => {
   }, [currentRound])
 
   return (
-    <div className='container vh-100 d-flex justify-content-center flex-column '>
+    <div className='container vh-100 d-flex justify-content-center flex-column'>
     <>
       <Modal show={show}>
         <Modal.Header className="game-modal text-center justify-content-center">

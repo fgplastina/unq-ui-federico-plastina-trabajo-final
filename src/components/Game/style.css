@@ -4,3 +4,11 @@
   margin-right: 15px;
 }
 
+.selected-card{
+  height: 140px;
+  width: 180px;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+

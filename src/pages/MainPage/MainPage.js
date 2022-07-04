@@ -16,21 +16,21 @@ const MainPage = () => {
 
   return (
     <div className='main-page-container container d-flex justify-content-center flex-column '>
-      <h1 className='tittle-main text-center '>Sheldon's best game</h1>
+      <h1 className='tittle-main text-center mt-2 mb-4'>Sheldon's best game</h1>
       <div className='align-items-center d-flex justify-content-center flex-column text-center'>
-        <div className='round-container d-flex justify-content-center align-items-center'>
+        <div className='round-container d-flex justify-content-center align-items-center mb-4'>
           <span className='label-round '>
               rounds
           </span>
-          <select name="round" className='value-rounds' value={value.round} onChange={handleChangeValueRound}>
+          <select className='value-rounds' name="round" value={value.round} onChange={handleChangeValueRound}>
             <option value="1">1</option>
             <option value="3">3</option>
             <option value="5">5</option>
           </select>
         </div>
-        <div className='d-flex justify-content-center flex-column text-center'> 
-          <Button className='mb-3' variant="outline-success" onClick={() => navigate('/game')}>Game start</Button>{' '}
-          <Button className='mb-3' variant="outline-danger" onClick={() => navigate('/rules')}>Rules</Button>{' '}
+        <div className='d-flex justify-content-center flex-column text-center mb-5'> 
+          <Button className='mb-4 ' variant="outline-success" onClick={() => navigate('/game')}>Game start</Button>{' '}
+          <Button className='mb-1' variant="outline-danger" onClick={() => navigate('/rules')}>Rules</Button>{' '}
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 .tittle-main {
   margin-bottom:  70px;
   font-weight: 900;
+  border-bottom: solid #110f1e;
 }
 
 .round-container {
@@ -26,10 +27,15 @@
 }
 
 .button-container {
-  width: 200px;
+  width: 300px;
 }
 
 .main-page-container {
   margin-bottom: 1050px !important;
   margin-top: 100px !important;
+  border: solid #110f1e;
+  border-radius: 5px;
+  max-width: 45% !important;
+  background-color: #222129 !important;
+
 }
