@@ -10,7 +10,7 @@ const NotFound = () => {
       <div className="sub-container-not-found text-center">
         <h3 className='mt-4 mb-4'>Page not found</h3>
         <h2 className='mb-4'>404</h2>
-          <Button className='mb-4' variant="outline-secondary" onClick={() => navigate('/')}>Go home</Button>{' '}
+          <Button className='mb-4' variant="outline-secondary" onClick={() => navigate(`${process.env.PUBLIC_URL}/`)}>Go home</Button>{' '}
       </div>
     </div>
 )
