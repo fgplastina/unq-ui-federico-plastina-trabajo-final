@@ -10,11 +10,11 @@ function Game() {
   return (
     <BrowserRouter>
       <Header />
-      <Routes>
-        <Route path="/" element={<MainPage/>}/>
-        <Route path="/game" element={<GamePage/>}/>
-        <Route path="/rules" element={<Rules />}/>
-        <Route path="*" element={<NotFound />} />
+      <Routes basename={'/unq-ui-federico-plastina-trabajo-final'}>
+        <Route path={`${process.env.PUBLIC_URL}/`} element={<MainPage/>}/>
+        <Route path={`${process.env.PUBLIC_URL}/game`} element={<GamePage/>}/>
+        <Route path={`${process.env.PUBLIC_URL}/rules`} element={<Rules />}/>
+        <Route path={`${process.env.PUBLIC_URL}/*`} element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );

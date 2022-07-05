@@ -29,8 +29,8 @@ const MainPage = () => {
           </select>
         </div>
         <div className='d-flex justify-content-center flex-column text-center mb-5'> 
-          <Button className='mb-4 ' variant="outline-success" onClick={() => navigate('/game')}>Game start</Button>{' '}
-          <Button className='mb-1' variant="outline-danger" onClick={() => navigate('/rules')}>Rules</Button>{' '}
+          <Button className='mb-4 ' variant="outline-success" onClick={() => navigate(`${process.env.PUBLIC_URL}/game`)}>Game start</Button>{' '}
+          <Button className='mb-1' variant="outline-danger" onClick={() => navigate(`${process.env.PUBLIC_URL}/rules`)}>Rules</Button>{' '}
         </div>
       </div>
     </div>
