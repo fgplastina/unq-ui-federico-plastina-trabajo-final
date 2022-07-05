@@ -1,0 +1,11 @@
+.wins{
+  border-right: solid #110F1E !important;
+}
+.losses{
+  border-right: solid #110F1E !important;
+}
+
+.container-result-panel{
+  border-top: solid #110F1E !important;
+  border-bottom: solid #110F1E !important;
+}

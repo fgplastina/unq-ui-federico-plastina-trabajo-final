@@ -1,11 +1,12 @@
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import './style.css'
 
 export const ResultPanel = ({wins, losses, draws}) => {
   return  (
-    <div  className='container mb-4 d-flex justify-content-center '>
-      <Row className='container text-center'>
+    <div  className='container mb-2 d-flex justify-content-center '>
+      <Row className='container-result-panel container text-center mt-2'>
          <Col className='wins'>
          <span className="text ">{wins === 1 ? 'Win: ' : 'Wins: '}</span>
          <span className="number">{wins}</span>

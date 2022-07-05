@@ -189,17 +189,22 @@ const GamePage = () => {
         </Modal.Footer>
       </Modal>
     </>
-      <h1 className='title-game text-center mb-5'>
+      <div className='game-menu-container'>
+      <h1 className='title-game text-center mb-3 mt-3'>
         Round {currentRound < value ? currentRound + 1 : currentRound }
       </h1>
-      <ResultPanel className='result-panel  align-items-center d-flex justify-content-center flex-column' wins={playStats.wins} losses={playStats.losses} draws={playStats.draws}/>
+        <div className='result-panel text-center items-align-center justify-content-center'>
+            <ResultPanel className='result-panel align-items-center d-flex justify-content-center flex-column' wins={playStats.wins} losses={playStats.losses} draws={playStats.draws}/>
+
+        </div>
       <div className='align-items-center d-flex justify-content-center flex-column text-center mb-2'>
         <div className='selected-options '>
           <SelectedOption currentPlayerPlay={currentPlayerPlay} currentMachinePlay={currentMachinePlay} />
         </div>
-        <div className='options mt-5'>
+        <div className='options mt-5 mb-4'>
           <PlayerOption setCurrentPlayerPlay={setCurrentPlayerPlay} currentPlayerPlay={currentPlayerPlay}/>
         </div>
+      </div>
       </div>
     </div>
   )
