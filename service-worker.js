@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/unq-ui-federico-plastina-trabajo-final/precache-manifest.acc6f1a66ff68686e5c1a0995e45381d.js"
+  "/unq-ui-federico-plastina-trabajo-final/precache-manifest.b367a75b55504b564e833d8b2b61daac.js"
 );
 
 workbox.clientsClaim();
