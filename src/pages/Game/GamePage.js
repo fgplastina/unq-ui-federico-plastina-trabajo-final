@@ -178,7 +178,6 @@ const GamePage = () => {
     <div className='container vh-100 d-flex justify-content-center flex-column'>
     <>
       <Modal 
-        size="lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered
         show={show}>
