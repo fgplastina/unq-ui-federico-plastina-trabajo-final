@@ -177,13 +177,17 @@ const GamePage = () => {
   return (
     <div className='container vh-100 d-flex justify-content-center flex-column'>
     <>
-      <Modal show={show}>
+      <Modal 
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+        show={show}>
         <Modal.Header className="game-modal text-center justify-content-center">
-          <Modal.Title >Game over!</Modal.Title>
+          <Modal.Title id="contained-modal-title-vcenter">Game over!</Modal.Title>
         </Modal.Header>
         <Modal.Body className="game-modal text-center justify-content-center">You have {getWinner()}!</Modal.Body>
         <Modal.Footer  className="game-modal text-center justify-content-center">
-          <Button  variant="outline-success" onClick={() => navigate('/')}>
+          <Button  variant="outline-success" onClick={() => navigate(`${process.env.PUBLIC_URL}/`)}>
             Play again!
           </Button>
         </Modal.Footer>

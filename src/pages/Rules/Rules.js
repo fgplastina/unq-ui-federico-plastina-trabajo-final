@@ -1,16 +1,9 @@
 import React from 'react';
 import ListGroup from 'react-bootstrap/ListGroup'
 import {plays} from '../Game/GamePage'
+import {capitalizeFirstLetter, capitalizeWordsInList } from '../../hook/capitalizeFirstLetter'
 import './style.css'
 
-function capitalizeFirstLetter(string){
-// https://stackoverflow.com/questions/1026069/how-do-i-make-the-first-letter-of-a-string-uppercase-in-javascript
-  return string.charAt(0).toUpperCase() + string.slice(1);
-}
-
-function capitalizeWordsInList(array){
-  return array.map((word) => (capitalizeFirstLetter(word)))
-}
 
 export const Rules = () => {
   return (

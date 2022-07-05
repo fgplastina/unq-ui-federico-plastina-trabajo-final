@@ -9,7 +9,7 @@ export const Header = () => {
   return (
     <nav className=" d-flex justify-content-between align-items-center  container-header  px-5">
       <span
-        onClick={() => navigate('/')}
+        onClick={() => navigate(`${process.env.PUBLIC_URL}/`)}
         className="logo-header"
         aria-hidden="true"
       >

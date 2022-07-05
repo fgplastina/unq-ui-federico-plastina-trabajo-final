@@ -1,6 +1,7 @@
 import React from 'react';
-import { plays } from '../../pages/Game/GamePage'
 import Card from 'react-bootstrap/Card'
+import { plays } from '../../pages/Game/GamePage'
+import { capitalizeFirstLetter } from '../../hook/capitalizeFirstLetter'
 import './style.css'
 
 
@@ -18,7 +19,7 @@ export const PlayerOption = ({setCurrentPlayerPlay, currentPlayerPlay}) => {
         <div  onClick={() => handleSelectedOption(play)}>
           <Card className="card">
             <Card.Body>
-              <Card.Title>{play.name}</Card.Title>
+              <Card.Title>{capitalizeFirstLetter(play.name)}</Card.Title>
               <Card.Img variant="bottom" src={play.image} />
             </Card.Body>
           </Card>

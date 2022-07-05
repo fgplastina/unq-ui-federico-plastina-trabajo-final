@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
+import { capitalizeFirstLetter } from '../../hook/capitalizeFirstLetter'
 import './style.css'
 
 export const SelectedOption = ({currentPlayerPlay, currentMachinePlay}) => {
