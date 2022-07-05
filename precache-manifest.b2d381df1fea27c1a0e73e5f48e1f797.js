@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "8e82437bfa4366111b5b",
-    "url": "/unq-ui-federico-plastina-trabajo-final/static/css/main.7059712c.chunk.css"
+    "revision": "2002b3ff5d2f921d6a60",
+    "url": "/unq-ui-federico-plastina-trabajo-final/static/css/main.a55c3370.chunk.css"
   },
   {
-    "revision": "8e82437bfa4366111b5b",
-    "url": "/unq-ui-federico-plastina-trabajo-final/static/js/main.7b051b37.chunk.js"
+    "revision": "2002b3ff5d2f921d6a60",
+    "url": "/unq-ui-federico-plastina-trabajo-final/static/js/main.231f8714.chunk.js"
   },
   {
     "revision": "95f0217f690b87e49f6e",
     "url": "/unq-ui-federico-plastina-trabajo-final/static/js/runtime~main.7193c23d.js"
   },
   {
-    "revision": "1e286c615180c03af169",
+    "revision": "e8a7747ebaf55ded720a",
     "url": "/unq-ui-federico-plastina-trabajo-final/static/css/2.5f919194.chunk.css"
   },
   {
-    "revision": "1e286c615180c03af169",
-    "url": "/unq-ui-federico-plastina-trabajo-final/static/js/2.e2f26b35.chunk.js"
+    "revision": "e8a7747ebaf55ded720a",
+    "url": "/unq-ui-federico-plastina-trabajo-final/static/js/2.7c0b413c.chunk.js"
   },
   {
     "revision": "2f1869a31fe55240e9341a39651d6477",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/unq-ui-federico-plastina-trabajo-final/static/media/spock_f.2f18a09a.png"
   },
   {
-    "revision": "57b6cbc760996aeb5f1ca5c78c4497eb",
+    "revision": "d88dea6d736ec3f58298db2334aa72b4",
     "url": "/unq-ui-federico-plastina-trabajo-final/index.html"
   }
 ];
