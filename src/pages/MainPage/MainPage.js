@@ -16,7 +16,7 @@ const MainPage = () => {
 
   return (
     <div className='main-page-container container d-flex justify-content-center flex-column '>
-      <h1 className='tittle-main text-center mt-2 mb-4'>Sheldon's best game</h1>
+      <h1 className='tittle-main text-center mb-4'>Sheldon's best game</h1>
       <div className='align-items-center d-flex justify-content-center flex-column text-center'>
         <div className='round-container d-flex justify-content-center align-items-center mb-4'>
           <span className='label-round '>
