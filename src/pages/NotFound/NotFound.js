@@ -6,7 +6,7 @@ import './style.css'
 const NotFound = () => {
   let navigate = useNavigate(); 
   return (
-    <div className="row d-flex justify-content-center center flex-column p-5 container-not-found">
+    <div className="row d-flex justify-content-center center flex-column p-5 container-not-found vh-50 align-items-center">
       <div className="sub-container-not-found text-center">
         <h3 className='mt-4 mb-4'>Page not found</h3>
         <h2 className='mb-4'>404</h2>
