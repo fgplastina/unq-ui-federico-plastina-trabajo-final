@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/unq-ui-federico-plastina-trabajo-final/static/media/spock_f.2f18a09a.png"
   },
   {
-    "revision": "885bfe0c57b461710574b69759570414",
+    "revision": "3ba92ae4b2e473a90f6a247675497050",
     "url": "/unq-ui-federico-plastina-trabajo-final/index.html"
   }
 ];
