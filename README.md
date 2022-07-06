@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Trabajo práctico final
+* Universidad Nacional de Quilmes
+* Materia: Interfaces
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Sheldon's best game
+Se trata de un juego estilo piedra, papel o tijera pero con mas posibilidades. Más información [acá][wiki]. 
 
-In the project directory, you can run:
 
-### `npm start`
+## Jugar online:
+Se puede jugar online en este [link][online], sin necesidad de instalarlo localmente.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instrucciones de instalación:
+#### Requisitos:
+1. Tener [node y npm](https://nodejs.org/en/download/) instalados,  :
 
-### `npm test`
+    ```shell
+    $ node --version
+    v18.3.0
+    $ npm --version
+    8.5.5
+    ```
+2. (Linux) Tener las utilidades __unzip__ y __wget__. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### Procedimiento:
+1. Con la utildad __wget__ descargar el proyecto:
+    ```
+    $ wget https://github.com/fgplastina/unq-ui-federico-plastina-trabajo-final/archive/refs/tags/game-v1.0.0.zip
+    ```
+2. Descomprimir el archivo y ubicarse dentro del directorio descomprimido:
+    ```
+    unzip game-v1.0.0.zip && cd game-v1.0.0
+    ```
+3. Instalar las dependencias del proyecto:
+    ```
+    npm install
+    ```
+4. Iniciar el proyecto:
+    ```
+    npm start
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[wiki]: https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock
+[online]: https://fgplastina.github.io/unq-ui-federico-plastina-trabajo-final/
