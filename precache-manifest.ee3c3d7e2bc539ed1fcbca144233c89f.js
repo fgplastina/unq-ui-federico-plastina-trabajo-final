@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "999761c5c620aa545aa8",
-    "url": "/unq-ui-federico-plastina-trabajo-final/static/css/main.62ef661d.chunk.css"
+    "revision": "b33369636fae821406ac",
+    "url": "/unq-ui-federico-plastina-trabajo-final/static/css/main.35bc00e0.chunk.css"
   },
   {
-    "revision": "999761c5c620aa545aa8",
-    "url": "/unq-ui-federico-plastina-trabajo-final/static/js/main.fc620b30.chunk.js"
+    "revision": "b33369636fae821406ac",
+    "url": "/unq-ui-federico-plastina-trabajo-final/static/js/main.68c6f283.chunk.js"
   },
   {
     "revision": "95f0217f690b87e49f6e",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/unq-ui-federico-plastina-trabajo-final/static/media/spock_f.2f18a09a.png"
   },
   {
-    "revision": "3ba92ae4b2e473a90f6a247675497050",
+    "revision": "e23612373535bf4838cf28e249a19e26",
     "url": "/unq-ui-federico-plastina-trabajo-final/index.html"
   }
 ];
