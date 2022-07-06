@@ -194,7 +194,7 @@ const GamePage = () => {
     </>
       <div className='game-menu-container'>
       <h1 className='title-game text-center mb-3 mt-3'>
-        Round {currentRound < value ? currentRound + 1 : currentRound }
+        Round {currentRound < value ? currentRound + 1 : currentRound } of {value}
       </h1>
         <div className='result-panel text-center items-align-center justify-content-center'>
             <ResultPanel className='result-panel align-items-center d-flex justify-content-center flex-column' wins={playStats.wins} losses={playStats.losses} draws={playStats.draws}/>
