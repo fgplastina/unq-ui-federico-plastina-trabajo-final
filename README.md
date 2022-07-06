@@ -13,7 +13,7 @@ Se puede jugar online en este [link][online], sin necesidad de instalarlo localm
 
 ## Instrucciones de instalación:
 #### Requisitos:
-1. Tener [node y npm](https://nodejs.org/en/download/) instalados,  :
+1. Tener [node](https://nodejs.org/en/download/) y [npm](https://nodejs.org/en/download/)  instalados:
 
     ```shell
     $ node --version
