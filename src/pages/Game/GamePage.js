@@ -100,7 +100,7 @@ const GamePage = () => {
       return 'lost'
     }
     else {
-      return 'draw'
+      return 'tie'
     }
   }
 
@@ -182,9 +182,8 @@ const GamePage = () => {
         centered
         show={show}>
         <Modal.Header className="game-modal text-center justify-content-center">
-          <Modal.Title id="contained-modal-title-vcenter">Game over!</Modal.Title>
+          <Modal.Title id="contained-modal-title-vcenter">You {getWinner()}!</Modal.Title>
         </Modal.Header>
-        <Modal.Body className="game-modal text-center justify-content-center">You have {getWinner()}!</Modal.Body>
         <Modal.Footer  className="game-modal text-center justify-content-center">
           <Button  variant="outline-success" onClick={() => navigate(`${process.env.PUBLIC_URL}/`)}>
             Play again!
