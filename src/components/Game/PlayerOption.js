@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 import { plays } from '../../pages/Game/GamePage'
-import { capitalizeFirstLetter } from '../../hook/capitalizeFirstLetter'
+import { capitalizeFirstLetter } from '../../utils/utils'
 import './style.css'
 
 
@@ -15,11 +15,15 @@ export const PlayerOption = ({setCurrentPlayerPlay, currentPlayerPlay}) => {
   
 	return (
 		<div className='container d-flex '>
-			{plays.map((play) => (
-				<div  onClick={() => handleSelectedOption(play)}>
+			{plays.map((play, index) => (
+				<div key={index} onClick={() => handleSelectedOption(play)}>
 					<Card className="card">
 						<Card.Body>
-							<Card.Title>{capitalizeFirstLetter(play.name)}</Card.Title>
+							<Card.Title> 
+								<strong>
+									{capitalizeFirstLetter(play.name)}
+								</strong>
+							</Card.Title>
 							<Card.Img variant="bottom" src={play.image} />
 						</Card.Body>
 					</Card>

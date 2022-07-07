@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
-import { capitalizeFirstLetter } from '../../hook/capitalizeFirstLetter'
+import { capitalizeFirstLetter } from '../../utils/utils'
 import './style.css'
 
 export const SelectedOption = ({currentPlayerPlay, currentMachinePlay}) => {
@@ -10,7 +10,7 @@ export const SelectedOption = ({currentPlayerPlay, currentMachinePlay}) => {
 			<Card className="selected-card" >
 				<Card.Body>
 					<Card.Title>
-						{currentPlayerPlay.name ? capitalizeFirstLetter(currentPlayerPlay.name) : '' } 
+						<strong> {currentPlayerPlay.name ? capitalizeFirstLetter(currentPlayerPlay.name) : '' } </strong>
 					</Card.Title>
 					<Card.Img variant="top" src={currentPlayerPlay.image} />
 				</Card.Body>
@@ -18,7 +18,7 @@ export const SelectedOption = ({currentPlayerPlay, currentMachinePlay}) => {
 			<Card className="selected-card">
 				<Card.Body>
 					<Card.Title>
-						{currentMachinePlay.name ? capitalizeFirstLetter(currentMachinePlay.name) : '' } 
+						<strong>	{currentMachinePlay.name ? capitalizeFirstLetter(currentMachinePlay.name) : '' } </strong>
 					</Card.Title>
 					<Card.Img variant="top" src={currentMachinePlay.image} />
 				</Card.Body>

@@ -7,3 +7,9 @@ export function capitalizeFirstLetter(string){
 export function capitalizeWordsInList(array){
 	return array.map((word) => (capitalizeFirstLetter(word)))
 }
+
+
+export function handleGoHome(setValue, navigate){
+		setValue(1)
+		navigate(`${process.env.PUBLIC_URL}/`)
+}

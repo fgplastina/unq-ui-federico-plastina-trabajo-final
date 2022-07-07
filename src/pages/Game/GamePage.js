@@ -8,6 +8,7 @@ import { RoundContext } from '../../context/providerRound'
 import { ResultPanel } from '../../components/Panel/ResultPanel'
 import  { SelectedOption } from '../../components/Game/SelectedOption'
 import  { PlayerOption } from '../../components/Game/PlayerOption'
+import { handleGoHome } from '../../utils/utils.js'
 import './style.css'
 
 // Assets import
@@ -76,7 +77,7 @@ const GamePage = () => {
 
 	const [currentMachinePlay, setCurrentMachinePlay] = useState({})
 
-	const {value} = useContext(RoundContext)
+	const {value, setValue} = useContext(RoundContext)
 
 	const [playStats, setPlayStats] = useState({
 		wins: 0,
@@ -136,6 +137,7 @@ const GamePage = () => {
 			handleShow()
 		}
 	}
+
   
 	useEffect(() => {
 		if(hasPlayerPlay){
@@ -185,7 +187,7 @@ const GamePage = () => {
 						<Modal.Title id="contained-modal-title-vcenter">You {getWinner()}!</Modal.Title>
 					</Modal.Header>
 					<Modal.Footer  className="game-modal text-center justify-content-center">
-						<Button  variant="outline-success" onClick={() => navigate(`${process.env.PUBLIC_URL}/`)}>
+						<Button  variant="outline-success" onClick={() => handleGoHome(setValue, navigate)}>
             Play again!
 						</Button>
 					</Modal.Footer>
