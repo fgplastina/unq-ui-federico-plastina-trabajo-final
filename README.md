@@ -3,7 +3,7 @@
 * Materia: Interfaces
 
 
-## Sheldon's best game
+## Piedra, Papel, Tijera, Largarto y Spock (Sheldon's best game).
 Se trata de un juego estilo piedra, papel o tijera pero con mas posibilidades. Más información [acá][wiki]. 
 
 
