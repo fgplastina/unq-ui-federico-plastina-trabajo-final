@@ -1,6 +1,6 @@
 # Trabajo práctico final
 * Universidad Nacional de Quilmes
-* Materia: Interfaces
+* Materia: Construcción de Interfaces de Usuario
 
 
 ## Piedra, Papel, Tijera, Largarto y Spock (Sheldon's best game).
