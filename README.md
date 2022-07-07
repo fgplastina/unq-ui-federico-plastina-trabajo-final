@@ -25,21 +25,36 @@ Se puede jugar online en este [link][online], sin necesidad de instalarlo localm
 
 
 #### Procedimiento:
-1. Con la utildad __wget__ descargar el proyecto:
+1.  Descargar el proyecto
+    
+    
+    * (Windows) - Descargar el zip desde la [url.](https://github.com/fgplastina/unq-ui-federico-plastina-trabajo-final/releases)
+    
+    * (Linux) - Con la utildad __wget__ descargar el proyecto:
+        ```
+        $ wget https://github.com/fgplastina/unq-ui-federico-plastina-trabajo-final/archive/refs/tags/game-v1.0.0.zip
+        ```
+    
+    * Tambien es viable usar git, independiente del OS y sin necesidad de descomprimir:
+        ```
+        git clone https://github.com/fgplastina/unq-ui-federico-plastina-trabajo-final 
+        ```
+    
+2.  Descomprimir el archivo y ubicarse dentro del directorio descomprimido:
+    * (Windows) - usar winzip o 7zip. 
+     
+    * (Linux) - Ejecutar en la terminal:
+        ```
+        unzip game-v1.0.0.zip && cd game-v1.0.0
+        ```
+    
+3. Instalar las dependencias del proyecto desde la terminal o consola:
     ```
-    $ wget https://github.com/fgplastina/unq-ui-federico-plastina-trabajo-final/archive/refs/tags/game-v1.0.0.zip
-    ```
-2. Descomprimir el archivo y ubicarse dentro del directorio descomprimido:
-    ```
-    unzip game-v1.0.0.zip && cd game-v1.0.0
-    ```
-3. Instalar las dependencias del proyecto:
-    ```
-    npm install
+    $ npm install
     ```
 4. Iniciar el proyecto:
     ```
-    npm start
+    $ npm start
     ```
 
 [wiki]: https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock
