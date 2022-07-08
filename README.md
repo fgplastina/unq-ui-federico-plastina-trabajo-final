@@ -45,7 +45,7 @@ Se puede jugar online en este [link][online], sin necesidad de instalarlo localm
      
     * (Linux) - Ejecutar en la terminal:
         ```
-        unzip game-v1.0.0.zip && cd game-v1.0.0
+        unzip GAME-v1.0.0.zip && cd GAME-v1.0.0
         ```
     
 3. Instalar las dependencias del proyecto desde la terminal o consola:
