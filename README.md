@@ -32,7 +32,7 @@ Se puede jugar online en este [link][online], sin necesidad de instalarlo localm
     
     * (Linux) - Con la utildad __wget__ descargar el proyecto:
         ```
-        $ wget https://github.com/fgplastina/unq-ui-federico-plastina-trabajo-final/archive/refs/tags/game-v1.0.0.zip
+        $ wget https://github.com/fgplastina/unq-ui-federico-plastina-trabajo-final/archive/refs/tags/GAME-v1.0.0.zip
         ```
     
     * Tambien es viable usar git, independiente del OS y sin necesidad de descomprimir:
